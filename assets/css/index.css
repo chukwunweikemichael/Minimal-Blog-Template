@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    z-index: 1;
+}
+.heading img {
+    padding: 15px;
+margin-bottom: 12px;
+
+}
+#headlogo{
+
+  border-radius: 270px;
+  margin: 10px;
+}
+.con-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    list-style-type: none;
+     margin: 10px;
+ padding-top: 10px; 
+ padding-right: 90px;
+font-size: 18px;
+    }
+
+    #Subscribe{
+        margin-left: 20px;
+       height: 33px;
+       width: 100px;
+       border-radius: 10px;
+      background-color: rgb(29, 41, 57);
+      color: #ffff;
+      border: 3px solid rgb(29, 41, 57);
+        
+    }
+    #Subscribe:hover{
+        background-color: rgb(25, 35, 47);
+      color: #e7abab;
+      border: 3px solid rgb(15, 20, 27);
+    }
+    #button-move{
+        padding-bottom: 30px;
+   
+    }
+  #meet{
+    width: 150px;
+    background-color: rgb(223, 221, 221);
+margin: 150px auto 40px;
+text-align: center;
+border-radius: 20px;
+padding: 8px 15px 10px;
+}
+#meet:hover{
+    background-color: #fbc9c9;
+    color: #00010a;
+}
+#hero-section{
+    background: linear-gradient(360deg, rgba(139, 139, 25, 0.872), rgb(0, 88, 0),rgb(202, 131, 0));
+    padding: 25px;
+
+}
+#minimal{
+    color: rgb(209,70,56);
+    font-size: 80px;
+margin: auto;
+
+text-align: center;
+}
+#customisable{
+    font-size: 22px;
+    text-align: center;
+padding: 30px;
+}
+ .blog-section{
+    display: flex;
+    justify-content:space-between;
+width: 80%;
+max-width: auto;
+padding: 10px;
+padding-bottom: 15px;
+ padding-left:120px;
+ }
+
+
+
+#blog-section button{
+    padding: 5px 8px;
+    /* border: 1px solid black; */
+}
+#blog-section{
+    padding: 90px;
+    height: auto 100%;
+    background-color: rgb(189, 195, 201);
+}
+.blog-posts{
+    width: 80%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+
+}
+.blog {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 20px;
+}
+.blog div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dateentery{
+    font-size: 12.7px;
+    padding: 6px;
+}
+.Hilarious{
+    padding: 6px;
+}
+.Redefined{
+    padding: 9px 16px 0px 10px; 
+}
+#personalnews{
+    color: rgb(212,79,54);
+    text-align: center;
+padding-top: 45px;
+}
+#weekly{
+    text-align: center;
+    font-size: 16px;
+    padding: 22px;
+}
+.form{
+   text-align: center;
+   padding: 9px;
+   border-bottom: 1px solid;
+   width: 80%;
+   margin: auto;
+}
+#Subscribefooter{
+       border-radius: 10px;
+      background-color: rgb(16, 20, 26);
+      color: #ffff;
+      border: 10px solid rgb(6, 10, 14);
+}
+.form input{
+    padding: 8px;
+    width: 200px;
+}
+.Copyright{
+    text-align: center;
+    padding: 15 px;
+}
