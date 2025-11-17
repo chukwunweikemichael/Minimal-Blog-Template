@@ -1,168 +1,252 @@
-*{
-
-    margin: 0;
-    padding: 0;
+* { 
+  margin: 0;
+  padding: 0;
 }
-.heading{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    backdrop-filter: blur(12px);
-    z-index: 1;
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(149, 130, 130, 0.386);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(12px);
+  z-index: 1;
 }
 .heading img {
-    padding: 15px;
-margin-bottom: 12px;
-
+  padding: 15px;
+  margin-bottom: 12px;
 }
-#headlogo{
-
+#headlogo {
   border-radius: 270px;
   margin: 10px;
 }
-.con-1{
-    display: flex;
-    justify-content: space-between;
-    gap: 37px;
-    list-style-type: none;
-     margin: 10px;
- padding-top: 10px; 
- padding-right: 90px;
-font-size: 18px;
-    }
-
-    #Subscribe{
-        margin-left: 20px;
-       height: 33px;
-       width: 100px;
-       border-radius: 10px;
-      background-color: rgb(29, 41, 57);
-      color: #ffff;
-      border: 3px solid rgb(29, 41, 57);
-        
-    }
-    #Subscribe:hover{
-        background-color: rgb(25, 35, 47);
-      color: #e7abab;
-      border: 3px solid rgb(15, 20, 27);
-    }
-    #button-move{
-        padding-bottom: 30px;
-   
-    }
-  #meet{
-    width: 150px;
-    background-color: rgb(223, 221, 221);
-margin: 150px auto 40px;
-text-align: center;
-border-radius: 20px;
-padding: 8px 15px 10px;
+.con-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+  list-style-type: none;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 90px;
+  font-size: 18px;
 }
-#meet:hover{
-    background-color: #fbc9c9;
-    color: #00010a;
-}
-#hero-section{
-    background: linear-gradient(360deg, rgba(139, 139, 25, 0.872), rgb(0, 88, 0),rgb(202, 131, 0));
-    padding: 25px;
 
+#Subscribe {
+  margin-left: 20px;
+  height: 33px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(11, 17, 24);
+  color: #ffff;
+  border: 3px solid rgb(29, 41, 57);
 }
-#minimal{
-    color: rgb(209,70,56);
-    font-size: 80px;
-margin: auto;
-
-text-align: center;
+#Subscribe:hover {
+  background-color: rgb(25, 35, 47);
+  color: #e7abab;
+  border: 3px solid rgb(15, 20, 27);
 }
-#customisable{
-    font-size: 22px;
-    text-align: center;
-padding: 30px;
+#button-move {
+  padding-bottom: 30px;
 }
- .blog-section{
-    display: flex;
-    justify-content:space-between;
-width: 80%;
-max-width: auto;
-padding: 10px;
-padding-bottom: 15px;
- padding-left:120px;
- }
-
-
-
-#blog-section button{
-    padding: 5px 8px;
-    /* border: 1px solid black; */
+#meet {
+  width: 150px;
+  background-color: rgb(223, 221, 221);
+  margin: 150px auto 40px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 15px 10px;
 }
-#blog-section{
-    padding: 90px;
-    height: auto 100%;
-    background-color: rgb(189, 195, 201);
+#meet:hover {
+  background-color: #fbc9c9;
+  color: #00010a;
 }
-.blog-posts{
-    width: 80%;
-    display: flex;
-    padding: 30px;
-    flex-direction: column;
-    gap: 40px;
-    margin: auto;
+#hero-section {
+  background: linear-gradient(
+    360deg,
+    rgba(94, 94, 8, 0.872),
+    rgb(0, 51, 0),
+    rgb(44, 29, 0)
+  );
+  padding: 25px;
+}
+#minimal {
+  color: rgb(209, 70, 56);
+  font-size: 80px;
+  margin: auto;
 
+  text-align: center;
+}
+#customisable {
+  font-size: 22px;
+  text-align: center;
+  padding: 30px;
+}
+.blog-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: auto;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-left: 120px;
+}
+
+#blog-section button {
+  padding: 5px 8px;
+  /* border: 1px solid black; */
+}
+#blog-section {
+  padding: 80px;
+  width: auto 100%;
+  height: auto 100%;
+  background-color: rgb(189, 195, 201);
+}
+.Daily {
+  font-weight: bolder;
+}
+.blog-posts {
+  width: 80%;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 40px;
+  margin: auto;
 }
 .blog {
-    display: flex;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    gap: 20px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 20px;
 }
 .blog div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.dateentery{
-    font-size: 12.7px;
-    padding: 6px;
+.dateentery {
+  font-size: 12.7px;
+  padding: 6px;
 }
-.Hilarious{
-    padding: 6px;
+.Hilarious {
+  padding: 6px;
 }
-.Redefined{
-    padding: 9px 16px 0px 10px; 
+.Redefined {
+  padding: 9px 16px 0px 10px;
 }
-#personalnews{
-    color: rgb(212,79,54);
-    text-align: center;
-padding-top: 45px;
+#personalnews {
+  color: rgb(212, 79, 54);
+  text-align: center;
+  padding-top: 45px;
 }
-#weekly{
-    text-align: center;
-    font-size: 16px;
-    padding: 22px;
+#weekly {
+  text-align: center;
+  font-size: 16px;
+  padding: 22px;
 }
-.form{
-   text-align: center;
-   padding: 9px;
-   border-bottom: 1px solid;
-   width: 80%;
-   margin: auto;
+.form {
+  text-align: center;
+  padding: 9px;
+  border-bottom: 1px solid;
+  width: 80%;
+  margin: auto;
 }
-#Subscribefooter{
-       border-radius: 10px;
-      background-color: rgb(16, 20, 26);
-      color: #ffff;
-      border: 10px solid rgb(6, 10, 14);
+#Subscribefooter {
+  border-radius: 10px;
+  background-color: rgb(16, 20, 26);
+  color: #ffff;
+  border: 10px solid rgb(6, 10, 14);
 }
-.form input{
-    padding: 8px;
-    width: 200px;
+.form input {
+  padding: 12px;
+  width: 200px;
 }
-.Copyright{
-    text-align: center;
-    padding: 15 px;
+.Copyright {
+  text-align: center;
+  padding: 32px;
+}
+.box {
+  font-size: 20px;
+  width: 16%;
+  margin: auto;
+  margin-bottom: 70px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgb(0, 0, 0);
+  background-color: rgb(238, 91, 65);
+   animation: spin 4s linear infinite;
+ 
+}
+.box:hover {
+  background-color: rgba(40, 19, 15, 0.653);
+   transition: all 2s 0.2s ease;
+   border-radius: 190px;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.CRYPTO {
+  text-align: center;
+  padding-top: 45px;
+  color: rgb(255, 255, 255);
+  animation: circular 4s linear infinite;
+}
+.CRYPTO:hover {
+  color: rgb(24, 15, 2);
+  /* transition: all 4s 0.2s ease; */
+}
+
+  
+.menuDropdown{
+  display: none;
+}
+#menubar{
+display: none;
+}
+
+
+@media (max-width: 768px) {
+  .con-1 li {
+    display: none;
+  }
+  #menubar{
+    color: #042d48;
+    display: block;
+margin: auto;
+
+  }
+.menuDropdown{
+  display: flex;
+    flex-direction: column-reverse;
+          cursor: pointer;
+      padding: 25px;
+      margin-left: 300px auto;
+      height: 450px;
+      background: #a1a2c3d1;
+      color: rgb(156, 12, 12);
+      position: fixed;
+      top:94px;
+      left:80%;
+     
+}
+  .blog {
+    flex-direction: column-reverse;
+  }
+  #Subscribe {
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(1, 30, 63);
+    color: #ffff;
+    border: 3px solid rgb(14, 19, 25);
+  }
+
 }
